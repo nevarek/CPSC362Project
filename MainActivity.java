@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // try this for forcing landscape
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE); 
     }
 
     public Button buttonNew;
